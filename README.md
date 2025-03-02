@@ -21,6 +21,7 @@ This project provides three versions of the trading bot:
 - **Light**: For low-end laptops and minimal resource usage (~500MB RAM)
 - **Medium**: For mid-range computers and balanced performance (~2GB RAM)
 - **Heavy**: For high-end computers with maximum analysis capabilities (~4GB+ RAM)
+- **server.py** is the only file for the moment complete but not yet optimized enough. If you want to use the others, I advise you to optimize them.
 
 ## Detailed Installation Guide
 
