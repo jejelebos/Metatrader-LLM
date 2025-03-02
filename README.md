@@ -97,7 +97,7 @@ https://lmstudio.ai/
 
 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/mt5-llm-trading-bot.git
+[git clone https://github.com/yourusername/mt5-llm-trading-bot.git](https://github.com/jejelebos/Metatrader-LLM.git)
 cd mt5-llm-trading-bot
 ```
 
