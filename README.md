@@ -62,7 +62,7 @@ https://www.metatrader5.com/en/download
 
 2. Installation Steps:
 - Run installer
-- Create demo account
+- Create demo account (or connect your account)
 - Enable AutoTrading
 - Enable DLL imports
 - Allow algorithmic trading
