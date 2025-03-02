@@ -15,12 +15,12 @@ import json
 app = Flask(__name__)
 
 # Adresse API du LLM
-LLM_API_URL = "http://192.168.0.52:1234/v1/chat/completions"
+LLM_API_URL = "http://###.###.#.##:####/v1/chat/completions"
 
 # Variables pour les notif discord et telegram
-DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1345088580715937923/fL9Ce8lKIYjKqHxMMqaDSInl087syh-rt-zsDdrH389GFcO0p5GZKBJiSZMhPpKXstaN"
-TELEGRAM_BOT_TOKEN = "7348761806:AAHLNMpnRcAy8jA9kz4WouLHj4JAjFgWD3Q"
-TELEGRAM_CHAT_ID = "7233793813"
+DISCORD_WEBHOOK_URL = "###"
+TELEGRAM_BOT_TOKEN = "###"
+TELEGRAM_CHAT_ID = "###"
 
 # Parametres supplémentaires
 SEND_DISCORD_NOTIFICATIONS = False
@@ -89,9 +89,9 @@ def initialize_mt5():
             
         # Initialisation avec les paramètres
         if not mt5.initialize(
-            login=40391310,
-            server="Deriv-Demo",
-            password="Jeje8Vince3+-",
+            login=###,
+            server="###",
+            password="###+-",
             timeout=60000
         ):
             error = mt5.last_error()
